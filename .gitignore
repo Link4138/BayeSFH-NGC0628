@@ -1,3 +1,3 @@
-pij_cij_results/*.txt
+*.txt
 **.swp
 *.log

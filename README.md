@@ -12,13 +12,14 @@ The present repo was developed using the following python packages:
 
 ## Quick starting
 
-If all the required packages are intalled in your computer, execute the .py script typing the following commad line: python bayestar_3mags.py
+If all the required packages are installed in your computer, execute the .py script by typing the following command line: python bayestar_3mags.py
 
-In case that all packages are working properly, the program will run sucessfully and write an ascii table with the following columns: Z, log_age, p10, p50, p90.
+If all packages work correctly, the program will run successfully and write an ASCII table with the following columns: Z, log_age, p10, p50, p90.
 
-Plotting second and forth columns you will get the folowing figure
+Plotting the second and fourth columns, you will get the following figure
+
 
 <img src="https://github.com/Link4138/BayeSFH-NGC0628/blob/main/test.png" width="400"/>
 
 ## Citation
-Please cite [Mayya, Y. D. et al](https://ui.adsabs.harvard.edu/abs/2023MNRAS.521.5492M/abstract) is this code was helpful for your research interest.
+Please cite [Mayya, Y. D. et al. (2023)](https://ui.adsabs.harvard.edu/abs/2023MNRAS.521.5492M/abstract) if this code was helpful for your research interest.

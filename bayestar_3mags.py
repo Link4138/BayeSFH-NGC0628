@@ -319,8 +319,8 @@ if __name__ == "__main__":
     parser.add_argument("--Amag2", dest='A_mag2', default=0.0, type=float, help='Amag2 extinction')
     parser.add_argument("--Amag3", dest='A_mag3', default=0.0, type=float, help='Amag3 extinction')
     parser.add_argument("--imf", dest='imf', default="Krp", type=str, help='IMF Function (Krp, Slp)')
-    parser.add_argument("--walkers", dest='wlk', default=20, type=str, help='Number of walkers for the sampling process.')
-    parser.add_argument("--samples", dest='samp', default=500, type=str, help='Number of samplings per walker.')
+    parser.add_argument("--walkers", dest='wlk', default=20, type=int, help='Number of walkers for the sampling process.')
+    parser.add_argument("--samples", dest='samp', default=500, type=int, help='Number of samplings per walker.')
     options = parser.parse_args()
 
     N_wlk, N_smp = options.wlk, options.samp
